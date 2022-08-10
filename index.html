@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Wordle</title>
+</head>
+<body>
+
+  <div class="header__content">
+    <div class="header__container">
+      <div class="header__left">
+        <div class="menu-button">
+          <img class="header-images" src="/img/menu.svg" alt="#">
+        </div>
+        <div class="rules-button">
+          <img class="header-images" src="/img/rules.svg" alt="#">
+        </div>
+      </div>
+      <div class="header__center">Wordle</div>
+      <div class="header__right">
+        <div class="statistics-button">
+          <img class="header-images" src="/img//statistics.png" alt="#">
+        </div>
+        <div class="settings-button">
+          <img class="header-images" src="/img/settings.svg" alt="#">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content__container">
+      <div class="main__container">
+        <div class="main__content">
+          <!-- <div class="main__row-1  row">
+            <div class="row-1__cell-1 cell"></div>
+            <div class="row-1__cell-2 cell"></div>
+            <div class="row-1__cell-3 cell"></div>
+            <div class="row-1__cell-4 cell"></div>
+            <div class="row-1__cell-5 cell"></div>
+          </div>
+          <div class="main__row-2  row">
+            <div class="row-2__cell-1 cell"></div>
+            <div class="row-2__cell-2 cell"></div>
+            <div class="row-2__cell-3 cell"></div>
+            <div class="row-2__cell-4 cell"></div>
+            <div class="row-2__cell-5 cell"></div>
+          </div>
+          <div class="main__row-3  row">
+            <div class="row-3__cell-1 cell"></div>
+            <div class="row-3__cell-2 cell"></div>
+            <div class="row-3__cell-3 cell"></div>
+            <div class="row-3__cell-4 cell"></div>
+            <div class="row-3__cell-5 cell"></div>
+          </div>
+          <div class="main__row-4  row">
+            <div class="row-4__cell-1 cell"></div>
+            <div class="row-4__cell-2 cell"></div>
+            <div class="row-4__cell-3 cell"></div>
+            <div class="row-4__cell-4 cell"></div>
+            <div class="row-4__cell-5 cell"></div>
+          </div>
+          <div class="main__row-5  row">
+            <div class="row-5__cell-1 cell"></div>
+            <div class="row-5__cell-2 cell"></div>
+            <div class="row-5__cell-3 cell"></div>
+            <div class="row-5__cell-4 cell"></div>
+            <div class="row-5__cell-5 cell"></div>
+          </div>
+          <div class="main__row-6  row">
+            <div class="row-6__cell-1 cell"></div>
+            <div class="row-6__cell-2 cell"></div>
+            <div class="row-6__cell-3 cell"></div>
+            <div class="row-6__cell-4 cell"></div>
+            <div class="row-6__cell-5 cell"></div>
+          </div> -->
+        </div>
+      </div>
+      <div class="keyboard__content">
+        <div class="keyboard__line-1 line">
+          <div class="btn-q btn">Q</div>
+          <div class="btn-w btn">W</div>
+          <div class="btn-e btn">E</div>
+          <div class="btn-r btn">R</div>
+          <div class="btn-t btn">T</div>
+          <div class="btn-y btn">Y</div>
+          <div class="btn-u btn">U</div>
+          <div class="btn-i btn">I</div>
+          <div class="btn-o btn">O</div>
+          <div class="btn-p btn">P</div>
+        </div>
+        <div class="keyboard__line-2 line">
+          <div class="btn-a btn">A</div>
+          <div class="btn-s btn">S</div>
+          <div class="btn-d btn">D</div>
+          <div class="btn-f btn">F</div>
+          <div class="btn-g btn">G</div>
+          <div class="btn-h btn">H</div>
+          <div class="btn-j btn">J</div>
+          <div class="btn-k btn">K</div>
+          <div class="btn-l btn">L</div>
+        </div>
+        <div class="keyboard__line-3 line">
+          <div class="btn-enter">ENTER</div>
+          <div class="btn-z btn">Z</div>
+          <div class="btn-x btn">X</div>
+          <div class="btn-c btn">C</div>
+          <div class="btn-v btn">V</div>
+          <div class="btn-b btn">B</div>
+          <div class="btn-n btn">N</div>
+          <div class="btn-m btn">M</div>
+          <div class="btn-backspace">
+            <img src="/img/backspace.svg" alt="#">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup-win">
+    <a href="" class="popup__area-close"></a>
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="" class="popup__button-close">X</a>
+        <p>You win!!!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast">
+    <div class="toast__body">
+      <div class="toast__content">
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script type="module" src="js/app.js"></script>
+</html>
